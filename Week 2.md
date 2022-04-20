@@ -1,4 +1,4 @@
-                            A.Pizza Metrics
+### A.Pizza Metrics
 
 
 
@@ -125,7 +125,7 @@ group by week_day
 
 
 
-                     B Runner and Customer Experience
+### B.Runner and Customer Experience
                                                      
                                                      
 **Q1: How many runners signed up for each 1 week period? (i.e. week starts 2021-01-01)**
@@ -219,8 +219,7 @@ group by weekday(order_time)
 ```
 
 
-
-                                    C. ingredient optimisation
+### C. ingredient optimisation
 
 
 **Q1: What are the standard ingredients for each pizza?**

@@ -5,7 +5,6 @@
 Select distinct customer_id, sum(price) from sales as s
 inner join menu as m on s.product_id = m.product_id
 group by customer_id
-
 ```
 
 **Q2:How many days has each customer visited the restaurant?**

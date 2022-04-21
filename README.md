@@ -18,8 +18,7 @@ Thanks @DataWithDanny for the excellent SQL case studies! 👋🏻
 ## Case Study #1: Danny's Diner 
 <img src="https://user-images.githubusercontent.com/81607668/127727503-9d9e7a25-93cb-4f95-8bd0-20b87cb4b459.png" alt="Image" width="500" height="520">
 
-View the case study [here](https://8weeksqlchallenge.com/case-study-1/) and my **solution** [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/tree/main/Case%20Study%20%231%20-%20Danny's%20Diner) and on [Medium](https://katiehuangx.medium.com/8-week-sql-challenge-case-study-week-1-dannys-diner-2ba026c897ab?source=friends_link&sk=ed355696f5a70ff8b3d5a1b905e5dabe).
-
+View the case study [here](https://8weeksqlchallenge.com/case-study-1/) 
 ### Business Task
 Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. 
 
@@ -35,8 +34,7 @@ Danny wants to use the data to answer a few simple questions about his customers
 
 <img src="https://user-images.githubusercontent.com/81607668/127271856-3c0d5b4a-baab-472c-9e24-3c1e3c3359b2.png" alt="Image" width="500" height="520">
 
-View the case study [here](https://8weeksqlchallenge.com/case-study-2/) and my **solution** [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/tree/main/Case%20Study%20%232%20-%20Pizza%20Runner) and on [Medium](https://katiehuangx.medium.com/8-week-sql-challenge-case-study-2-pizza-runner-ba32f0a6f9fb?sk=5463dad7c9b0b1ba83d570f09e1fce90).
-
+View the case study [here](https://8weeksqlchallenge.com/case-study-2/) 
 ### Business Task
 Danny is expanding his new Pizza Empire and at the same time, he wants to Uberize it, so Pizza Runner was launched!
 
@@ -54,7 +52,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 
 <img src="https://user-images.githubusercontent.com/81607668/129742132-8e13c136-adf2-49c4-9866-dec6be0d30f0.png" width="500" height="520" alt="image">
 
-View the case study [here](https://8weeksqlchallenge.com/case-study-3/) and my **solution** [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/tree/main/Case%20Study%20%233%20-%20Foodie-Fi) and on [Medium](https://katiehuangx.medium.com/8-week-sql-challenge-case-study-3-foodie-fi-3d8497376ea9?sk=579afc01c30aa6149d85050f8a46ddef).
+View the case study [here](https://8weeksqlchallenge.com/case-study-3/).
 
 ### Business Task
 Danny and his friends launched a new startup Foodie-Fi and started selling monthly and annual subscriptions, giving their customers unlimited on-demand access to exclusive food videos from around the world.
@@ -73,7 +71,7 @@ This case study focuses on using subscription style digital data to answer impor
 
 <img src="https://user-images.githubusercontent.com/81607668/130343294-a8dcceb7-b6c3-4006-8ad2-fab2f6905258.png" alt="Image" width="500" height="520">
 
-View the case study [here](https://8weeksqlchallenge.com/case-study-4/) and my **solution** [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/tree/main/Case%20Study%20%234%20-%20Data%20Bank) and on [Medium].
+View the case study [here](https://8weeksqlchallenge.com/case-study-4/).
 
 ### Business Task
 Danny launched a new initiative, Data Bank which runs just like any other digital bank - but it isn’t only for banking activities, they also have the world’s most secure distributed data storage platform!
@@ -96,7 +94,7 @@ This case study is all about calculating metrics, growth and helping the busines
 
 <img src="https://user-images.githubusercontent.com/81607668/131437982-fc087a4c-0b77-4714-907b-54e0420e7166.png" alt="Image" width="500" height="520">
 
-View the case study [here](https://8weeksqlchallenge.com/case-study-5/) and my **solution** [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/tree/main/Case%20Study%20%235%20-%20Data%20Mart) and on [Medium].
+View the case study [here](https://8weeksqlchallenge.com/case-study-5/).
 
 ### Business Task
 Data Mart is an online supermarket that specialises in fresh produce.
@@ -133,9 +131,7 @@ Each record in the dataset is related to a specific aggregated slice of the unde
 
 <img src="https://user-images.githubusercontent.com/81607668/134615258-d1108e0d-0816-4cd7-a972-d45580f82352.png" alt="Image" width="500" height="520">
 
-View the case study [here](https://8weeksqlchallenge.com/case-study-6/) and my **solution** [here](https://github.com/katiehuangx/8-Week-SQL-Challenge/tree/main/Case%20Study%20%236%20-%20Clique%20Bait) and on [Medium].
-
-### Business Task
+View the case study [here](https://8weeksqlchallenge.com/case-study-6/).
 
 Clique Bait is an online seafood store. In this case study - you are required to support the founder and CEO Danny’s vision and analyse his dataset and come up with creative solutions to calculate funnel fallout rates for the Clique Bait online store.
 
@@ -151,7 +147,7 @@ Clique Bait is an online seafood store. In this case study - you are required to
 
 <img src="https://user-images.githubusercontent.com/81607668/138843936-d1741a39-9b87-4d5d-b09c-643600e28c92.png" alt="Image" width="500" height="520">
 
-View the case study [here](https://8weeksqlchallenge.com/case-study-8/) and my **solution** [here] and on [Medium].
+View the case study [here](https://8weeksqlchallenge.com/case-study-8/)
 
 ### Business Task
 

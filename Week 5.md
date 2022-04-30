@@ -27,7 +27,7 @@ FROM weekly_sales
 )
 ```
 
-## 2. Data Exploration
+## 2.Data Exploration
                                            
                                            
 **Q1: What day of the week is used for each week_date value?**
@@ -140,7 +140,7 @@ order by calendar
 ```
 
 
-## 3. Before & After Analysis
+## 3.Before & After Analysis
 
 **Using this analysis approach - answer the following questions:**
 

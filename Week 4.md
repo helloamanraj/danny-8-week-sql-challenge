@@ -151,4 +151,5 @@ select customer_id, closing_month, sum(x.transaction_balance) from (SELECT
 group by x.customer_id, x.closing_month
 order by x.customer_id
 ```
-Q5: What is the percentage of customers who increase their closing balance by more than 5% ?
+**Q5: What is the percentage of customers who increase their closing balance by more than 5% ?**
+This question needs more clarifications 

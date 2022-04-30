@@ -1,6 +1,6 @@
 ## Digital Analysis
 
-**Q1: How many users are there?**
+**Q1. How many users are there?**
   
  ```sql 
   SELECT
@@ -8,7 +8,7 @@
 FROM users
  ```
 
- **Q2: How many cookies does each user have on average?**
+ **Q2. How many cookies does each user have on average?**
  
  ```sql
  SELECT
@@ -85,7 +85,7 @@ LIMIT 3
 
 
 
-**Q8: What is the number of views and cart adds for each product category?**
+**Q8. What is the number of views and cart adds for each product category?**
 
 ```sql
 SELECT

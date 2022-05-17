@@ -1,6 +1,6 @@
 ## Digital Analysis
 
-**Q1. How many users are there?**
+**Q1: How many users are there?**
   
  ```sql 
   SELECT
@@ -8,7 +8,7 @@
 FROM users
  ```
 
- **Q2. How many cookies does each user have on average?**
+ **Q2: How many cookies does each user have on average?**
  
  ```sql
  SELECT
@@ -21,7 +21,7 @@ FROM (
   GROUP BY user_id)x
   ```
 
-**3. What is the unique number of visits by all users per month?**
+**3: What is the unique number of visits by all users per month?**
 
  ```sql
   SELECT
@@ -31,7 +31,7 @@ FROM events
 GROUP BY MONTH(event_time)
 ```
 
-**4. What is the number of events for each event type?**
+**4: What is the number of events for each event type?**
 ```sql
 SELECT
   event_type,
@@ -41,7 +41,7 @@ GROUP BY event_type
 ORDER BY event_type
 ```
 
-**5. What is the percentage of visits which have a purchase event?**
+**5: What is the percentage of visits which have a purchase event?**
 
 ```sql
 SELECT
@@ -54,7 +54,7 @@ WHERE ei.event_name = 'Purchase'
 ```
 
 
-**6. What is the percentage of visits which view the checkout page but do not have a purchase event?**
+**6: What is the percentage of visits which view the checkout page but do not have a purchase event?**
 
 ```sql
 select 100-((sum(purchase)/sum(checkout))*100 ) as percentage_checkout_view_with_no_purchase from (SELECT
@@ -67,7 +67,7 @@ order by visit_id)x
 ```
 
 
-**Q7. What are the top 3 pages by number of views?**
+**Q7: What are the top 3 pages by number of views?**
 
 
 ```sql
@@ -85,7 +85,7 @@ LIMIT 3
 
 
 
-**Q8. What is the number of views and cart adds for each product category?**
+**Q8: What is the number of views and cart adds for each product category?**
 
 ```sql
 SELECT
@@ -101,7 +101,7 @@ ORDER BY page_views DESC
 ```
 
 
-**Q9. What are the top 3 products by purchases?**
+**Q9: What are the top 3 products by purchases?**
 
 ```sql
 

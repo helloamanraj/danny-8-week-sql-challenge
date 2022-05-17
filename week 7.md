@@ -8,17 +8,17 @@ else "False" end )
 
 ## High Level Sales Analysis
 
-**Q1. What was the total quantity sold for all products?**
+**Q1: What was the total quantity sold for all products?**
 
 ```sql
 select sum(qty) as total quantity from sales
 ```
-**Q2.  What is the total generated revenue for all products before discounts?**
+**Q2:  What is the total generated revenue for all products before discounts?**
 
 ```sql
 select sum(price*qty) as generated_revenue from sales
 ```
-**Q3. What was the total discount amount for all products?**
+**Q3: What was the total discount amount for all products?**
 
 ```sql
 select sum(discount*qty) as generated_revenue from sales
@@ -26,11 +26,11 @@ select sum(discount*qty) as generated_revenue from sales
 
 
 ## Transaction Analysis
-**Q1 How many unique transactions were there?**
+**Q1: How many unique transactions were there?**
 ```sql
 select count(distinct(txn_id)) from sales
 ```
-**Q2 What is the average unique products purchased in each transaction?**
+**Q2: What is the average unique products purchased in each transaction?**
 
 ```sql
 
@@ -39,7 +39,7 @@ select txn_id, count(distinct prod_id) as cnt from sales
 group by txn_id
 )x
 ```
-**Q3. What are the 25th, 50th and 75th percentile values for the revenue per transaction?**
+**Q3: What are the 25th, 50th and 75th percentile values for the revenue per transaction?**
 
 
 
@@ -90,7 +90,7 @@ SELECT revenue FROM
 temp WHERE temp.row_num = ROUND (.25* @row_num);
 ```
 
-**Q4. What is the average discount value per transaction?**
+**Q4: What is the average discount value per transaction?**
 ```sql
 select round(avg(cnt)) from (
 select txn_id, sum(qty*discount) as cnt from sales 
@@ -98,7 +98,7 @@ group by txn_id
 )x
 ```
 
-**Q5. What is the percentage split of all transactions for members vs non-members?**
+**Q5: What is the percentage split of all transactions for members vs non-members?**
 ```sql
 SELECT 
 	ROUND(100 * 
@@ -113,7 +113,7 @@ SELECT
 FROM sales
 ```
 
-**Q6. What is the average revenue for member transactions and non-member transactions?**
+**Q6: What is the average revenue for member transactions and non-member transactions?**
 
 ```sql
 
@@ -136,7 +136,7 @@ GROUP BY mem;
 ```
 
 ## Product Analysis
-**Q1. What are the top 3 products by total revenue before discount?**
+**Q1: What are the top 3 products by total revenue before discount?**
 
 ```sql
 SELECT 
@@ -149,7 +149,7 @@ GROUP BY details.product_name
 LIMIT 3;
 ```
 
-**Q2. What is the total quantity, revenue and discount for each segment?**
+**Q2: What is the total quantity, revenue and discount for each segment?**
 
  ```sql
  SELECT 
@@ -167,7 +167,7 @@ GROUP BY
 ORDER BY total_revenue DESC
 ```
 
-**Q3. What is the top selling product for each segment?**
+**Q3: What is the top selling product for each segment?**
 
 ```sql
 
@@ -188,7 +188,7 @@ GROUP BY
     
 ```
 
-**Q4.  What is the total quantity, revenue and discount for each category?**
+**Q4:  What is the total quantity, revenue and discount for each category?**
 
 ```sql
 
@@ -206,7 +206,7 @@ GROUP BY
 	category_name
 
 ```
-**Q5.  What is the top selling product for each category?**
+**Q5:  What is the top selling product for each category?**
 
 ```sql
 SELECT 
@@ -226,7 +226,7 @@ GROUP BY
 
 ```
 
-**Q6. What is the percentage split of revenue by product for each segment?**
+**Q6: What is the percentage split of revenue by product for each segment?**
 
 
 ```sql
@@ -262,7 +262,7 @@ ORDER BY
 
 ```
 
-**Q7. What is the percentage split of revenue by segment for each category?**
+**Q7: What is the percentage split of revenue by segment for each category?**
 
 ```sql
 WITH cte AS (
@@ -295,7 +295,7 @@ ORDER BY
 
 ```
 
-**Q8. What is the percentage split of total revenue by category?**
+**Q8: What is the percentage split of total revenue by category?**
 
 ```sql
 
@@ -311,7 +311,7 @@ FROM sales AS a
 INNER JOIN product_details AS b
 	ON a.prod_id = b.product_id
 ```
-**Q9. What is the total transaction “penetration” for each product?**
+**Q9: What is the total transaction “penetration” for each product?**
 
 ```sql
 

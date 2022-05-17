@@ -67,7 +67,7 @@ order by visit_id)x
 ```
 
 
-**Q7: What are the top 3 pages by number of views?**
+**Q7. What are the top 3 pages by number of views?**
 
 
 ```sql
@@ -101,7 +101,7 @@ ORDER BY page_views DESC
 ```
 
 
-**Q9: What are the top 3 products by purchases?**
+**Q9. What are the top 3 products by purchases?**
 
 ```sql
 
